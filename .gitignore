@@ -1,0 +1,9 @@
+# JetBrain
+.idea/
+
+# CMake
+cmake-build-debug/
+cmake-build-release/
+
+# App specific
+saves/*
