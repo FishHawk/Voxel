@@ -3,6 +3,8 @@ project(Voxel
         VERSION 0.0
         LANGUAGES CXX)
 
+find_package(spdlog REQUIRED)
+
 set(CMAKE_CXX_STANDARD 17)
 
 file(GLOB_RECURSE VOXEL_SOURCE src/*.cpp)
